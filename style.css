@@ -1,0 +1,75 @@
+*,
+*:before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+.name-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-about-me {
+    display: flex;
+}
+
+.about-me {
+    width: 500px;
+    height: 700px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.about-me-paragraph {
+    font-size: 35px;
+}
+
+.bullet {
+    margin-left: 0;
+    list-style: none;
+    counter-reset: li;
+}
+.bullet li {
+    position: relative;
+    margin-bottom: 1.5em;
+    border: 3px solid #cadfcf;
+    padding: 0.6em;
+    border-radius: 4px;
+    background: #fefefe;
+    color: #231f20;
+    font-family: "Trebuchet MS", "Lucida Sans";
+}
+.bullet li:before {
+    position: absolute;
+    top: -0.7em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-size: 16px;
+    font-weight: bold;
+    color: #dcc24b;
+    background: #fefefe;
+    border-radius: 50%;
+    counter-increment: li;
+    content: counter(li);
+}
