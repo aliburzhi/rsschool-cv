@@ -21,3 +21,8 @@ I have experience in freelancing (1 project), as well as several volunteer proje
 4. Google DevTools
 5. SASS
 6. Adaptive layout (Mobile First, Pixel Perfect)
+
+*Work experience*
+
+I have freelance experience, also carry out projects for volunteer organizations(project support).
+I finished 2 internet layout courses. Finished school "GoIt" courses (Full Stack DEV)
