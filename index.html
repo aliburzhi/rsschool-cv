@@ -10,8 +10,10 @@
 <body>
     <header>
         <div class="name-container">
-            <h1>Ali Burzhi</h1>
-            <h3>Junior FrontEnd Developer</h2>
+            <div class="title-container">
+                <h1 class="main-name-title">Ali Burzhi</h1>
+                <h3>Junior FrontEnd Developer</h2>
+            </div>
             <img src="./images/image-ph.jpg" width="150" height="150">
         </div>
         <hr>
@@ -19,17 +21,19 @@
     <main class="main-about-me">
         <div class="about-me">
             <div class="goals-and-priorities">
-                <h2 class="about-me-paragraph">About me:</h2>
-                <h3 class="about-me-title">My goals and priorities:</h3>
-                <p class="about-me-description">
-                1.I want to become a strong developer bringing value and be a part of the IT sphere and culture
-                2.My priority is constant learning and development of my strengths, as well as the accumulation of technical knowledge
-                and the development of soft skills. 3. I have a great desire to develop and learn new things, create and support new
-                projects and develop in this area.
-                I have experience in freelancing (1 project), as well as several volunteer projects and projects in training courses.</p>
+                <h3 class="about-me-title" align="left">My goals and priorities</h3>
+                <!-- <p class="about-me-description"> -->
+                    <ol class="bullet">
+                         <li>I want to become a strong developer bringing value and be a part of the IT sphere and culture.</li>
+                         <li>My priority is constant learning and development of my strengths, as well as the accumulation of technical knowledge
+                        and the development of soft skills.</li>
+                         <li>I have a great desire to develop and learn new things, create and support new
+                        projects and develop in this area.</li>
+                         <li>I have experience in freelancing (1 project), as well as several volunteer projects and projects in training courses.</li>
+                    </ol>
             </div>
             <div class="skills">
-                <h3 class="skills-title">Skills</h3>
+                <h3 class="skills-title" align="left">Skills</h3>
                 <ol class="bullet">
                     <li>HTML, HTML5</li>
                     <li>CSS</li>
@@ -40,16 +44,10 @@
                     <li>Adaptive layout (Mobile First, Pixel Perfect)</li>
                 </ol>
             </div>
-
-            <div class="work-experience">
-                <h3 class="work-experience-title one">Work experience:</h3>
-                <p>I have freelance experience, also carry out projects for volunteer organizations(project support).
-                I finished 2 internet layout courses. Finished school "GoIt" courses (Full Stack DEV)</p>
-            </div>
         </div>
 
         <div class="projects-and-language">
-            <h3>Projects:</h3>
+            <h3 class="projects-title">Projects</h3>
             <ol class="bullet">
              <li><a href="https://aliburzhi.github.io/food_project/" alt="My food project">Food Project</a></li>
              <li><a href="https://github.com/AliBurzhi/3d-models-building" alt="3-d project">3D Model</a></li>
@@ -57,16 +55,20 @@
              <li><a href="https://github.com/AliBurzhi/practice_filmMaker" alt="film project">Film Project</a></li>
             </ol>
 
-            <h3>Languages</h3>
-            <p>
-            1. English - B1 Intermediate.<br>
-            2. Russian - Fluent.<br>
-            3. Ukrainian - Fluent.<br>
-            </p>
+            <h3 class="language-title">Languages</h3>
+                <ol class="bullet">
+                    <li>English - B1 Intermediate.</li>
+                    <li>Russian - Fluent</li>
+                    <li>Ukrainian - Fluent.</li>
+                </ol>
+            <div class="work-experience">
+                <h3 class="work-experience-title">Work experience:</h3>
+                    <ol class="bullet">
+                    <li>I have freelance experience, also carry out projects for volunteer organizations(project support)</li>
+                    <li>I finished 2 internet layout courses. Finished school "GoIt" courses (Full Stack DEV)</li>
+                    </ol>
+            </div>
         </div>
-
-
-
     </main>
 </body>
 </html>
