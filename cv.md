@@ -9,7 +9,7 @@
 
 ## About Me
 
-_My goals and priorities at the moment are:_
+_My goals and priorities:_
 
 1.I want to become a strong developer bringing value and be a part of the IT sphere and culture
 2.My priority is constant learning and development of my strengths, as well as the accumulation of technical knowledge and the development of soft skills. 3. I have a great desire to develop and learn new things, create and support new projects and develop in this area.
